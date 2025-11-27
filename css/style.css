@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* 아주 연한 배경 */
+    color: #333;
+}
+
+header {
+    background: #004a99; /* 브라질 색상 참고 */
+    color: #fff;
+    padding: 1em 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 2em;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background: #ccc;
+    color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* 언어 스위처 스타일 */
+.language-switcher a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.language-switcher a.active {
+    background-color: #007bff; /* 활성화된 언어 강조 */
+    border-radius: 4px;
+}
